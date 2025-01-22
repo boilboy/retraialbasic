@@ -37,3 +37,8 @@ h3 {
 #baseball {
     color:#7c7c7c;
 }
+
+.aisatsu {
+    display: flex;
+    justify-content: center;
+}
