@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初めてのWEBサイト</title>
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>山田太郎</h1>
+    </div>
+    <div class="main1">
+        <h2>じゃんけんしようぜ！！</h2>
+        <div>
+            <button type="button" onclick="janken('グー')">グー</button>
+            <button type="button" onclick="janken('チョキ')">チョキ</button>
+            <button type="button" onclick="janken('パー')">パー</button>
+            <div id ="janken">
+                <p id ="jankenResult"></p>
+            </div>
+        </div>
+        <h3>H3タグは, 三番大きな見出しです。</h3>
+        <p>
+            パラグラフタグは、<br />
+            段落として<b>文章</b>を書いていきます。<br />
+            <br />
+            斜体は<i>iタグで囲みます。</i> <br />
+            <u>アンダーバーはuタグで可能です。</u>
+        </p>
+    </div>
+    <div class="main2">
+        <ul>
+            <li id="baseball">野球</li>
+            <li>サッカー</li>
+            <li>テニス</li>
+            <li>水泳</li>
+            <li>器械体操</li>
+            <li>ゲートボール</li>
+        </ul>
+    </div>
+    <div class="footer">
+        <a href="https://x.com/byueeee" target="_blank">
+            <img src= "./image/フランプール.jpg" alt="jpegマーク" width="120px">
+        </a>
+        <p>公式サイトは<a href="https://tsfcm.jp" target="_blank">こちら</p>
+    </div>
+</body>
+</html>

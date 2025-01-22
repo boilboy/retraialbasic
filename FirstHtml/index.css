@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #7c7c7c;
+    text-align: center;
+}
+
+h3 {
+    color: #7c7c7c;
+    text-align: center;
+}
+
+.header {
+    background-color: black;
+    color :#fee;
+    text-align: center;
+}
+
+.main1 {
+    color :rgb(224, 121, 121);
+    text-align: center;
+}
+
+.main2 {
+    color :rgb(162, 224, 87);
+    text-align: center;
+}
+
+.footer {
+    color :rgb(174, 65, 149);
+    text-align: center;
+}
+
+#baseball {
+    color:#7c7c7c;
+}
